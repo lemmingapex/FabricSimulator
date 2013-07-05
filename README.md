@@ -1,4 +1,4 @@
 FabricSimulator
 ===============
 
-Simulates cloth using the physics springs
+Simulates cloth using the physics of springs
