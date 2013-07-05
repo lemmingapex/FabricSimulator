@@ -73,7 +73,7 @@ namespace {
 		
 		if (argc > 4) {
 			printf("Usage:\n%s [Step Size] [System Size] [Integrator]\n", argv[0]);
-			printf("Example usage:\n%s %s %s RungeKutta4\n", argv[0], systemSizeInput.c_str(), stepSizeInput.c_str());
+			printf("Example usage:\n%s %s %s RungeKutta4\n", argv[0], stepSizeInput.c_str(), systemSizeInput.c_str());
 			exit(0);
 		}
 		if(argc > 1) {
