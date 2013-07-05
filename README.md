@@ -5,6 +5,8 @@ Simulates cloth using the physics of springs
 Scott Wiedemann
 07/05/2013
 
+![alt text](sample.png "Fabric screenshot.")
+
 Compile It
 ----------
 make
