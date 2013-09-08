@@ -20,7 +20,8 @@ ifeq "$(OS)" "Windows_NT"
 endif
 
 # OS X
-ifeq "$(OSTYPE)" "darwin"
+UNAME_S := $(shell uname -s)
+ifeq ($(UNAME_S),Darwin)
 	LINKFLAGS = -framework Carbon -framework OpenGL -framework GLUT
 endif
 
