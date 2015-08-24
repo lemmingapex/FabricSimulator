@@ -31,4 +31,4 @@ Example usage:
 
 ##Notes
 
-You need the openGL headers installed.  Tested for linux.  Should compile for both mac and linux.  Check stout for the UI controls.
+You need the openGL headers installed.  Tested for linux.  Should compile for both mac and linux.  Check stdout for the UI controls.
