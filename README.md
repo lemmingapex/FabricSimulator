@@ -1,4 +1,4 @@
-#FabricSimulator
+# FabricSimulator
 
 Simulates cloth using the physics of springs
 
@@ -8,7 +8,7 @@ Scott Wiedemann
 
 ![alt text](sample.png "Fabric screenshot.")
 
-##Compile It
+## Compile It
 
 Depends on openGL headers.  On debian based systems:
 
@@ -18,7 +18,7 @@ sudo apt-get install freeglut3-dev
 
 make
 
-##Run It
+## Run It
 
 ./FabricSimulator
 
@@ -29,6 +29,6 @@ Example usage:
 ./FabricSimulator .04 15 RungeKutta4
 
 
-##Notes
+## Notes
 
 You need the openGL headers installed.  Tested for linux.  Should compile for both mac and linux.  Check stdout for the UI controls.
